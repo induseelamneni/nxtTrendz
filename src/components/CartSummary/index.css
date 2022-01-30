@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.cart-summary-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+  color: #616e7c;
+}
+
+.checkout {
+  background-color: #0b69ff;
+  border-width: 0px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 100%;
+  color: #ffffff;
+}
+
+.total {
+  color: #171f46;
+  font-size: 24px;
+}
